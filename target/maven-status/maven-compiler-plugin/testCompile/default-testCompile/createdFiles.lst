@@ -1,0 +1,10 @@
+videoGameAPI/TestScript/TC1_GET_Request.class
+videoGameAPI/Utilities/Reusable.class
+videoGameAPI/TestScript/TC_5_PUT_Request.class
+videoGameAPI/Utilities/HttpMethods.class
+videoGameAPI/Base/BaseClass.class
+videoGameAPI/TestScript/TC2_POST_Request.class
+videoGameAPI/Utilities/AllureListener.class
+videoGameAPI/TestScript/TC4_GET_Request.class
+videoGameAPI/Utilities/ReadConfig.class
+videoGameAPI/TestScript/TC3_DELETE_Request.class

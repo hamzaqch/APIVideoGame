@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite 001">
+  <test thread-count="5" name="API Video Game">
+    <classes>
+      <class name="videoGameAPI.TestScript.TC1_GET_Request"/>
+      <class name="videoGameAPI.TestScript.TC2_POST_Request"/>
+      <class name="videoGameAPI.TestScript.TC3_DELETE_Request"/>
+      <class name="videoGameAPI.TestScript.TC4_GET_Request"/>
+      <class name="videoGameAPI.TestScript.TC_5_PUT_Request"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

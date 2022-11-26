@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T06:10:40Z" name="Suite" finished-at="2022-11-26T06:10:57Z" duration-ms="16323">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T06:10:40Z" name="Test" finished-at="2022-11-26T06:10:57Z" duration-ms="16323">
+      <class name="videoGameAPI.TestScript.TC1_GET_Request">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:videoGameAPI.TestScript.TC1_GET_Request@640f11a1]" started-at="2022-11-26T06:10:40Z" name="setupTest" finished-at="2022-11-26T06:10:40Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="get_request()[pri:0, instance:videoGameAPI.TestScript.TC1_GET_Request@640f11a1]" started-at="2022-11-26T06:10:40Z" name="get_request" finished-at="2022-11-26T06:10:41Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_request -->
+        <test-method signature="get_allVideoGames()[pri:0, instance:videoGameAPI.TestScript.TC1_GET_Request@640f11a1]" started-at="2022-11-26T06:10:41Z" name="get_allVideoGames" finished-at="2022-11-26T06:10:41Z" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_allVideoGames -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:videoGameAPI.TestScript.TC1_GET_Request@640f11a1]" started-at="2022-11-26T06:10:41Z" name="tearDown" finished-at="2022-11-26T06:10:44Z" duration-ms="3003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- videoGameAPI.TestScript.TC1_GET_Request -->
+      <class name="videoGameAPI.TestScript.TC3_DELETE_Request">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:videoGameAPI.TestScript.TC3_DELETE_Request@7ac2e39b]" started-at="2022-11-26T06:10:54Z" name="setupTest" finished-at="2022-11-26T06:10:54Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="post_request()[pri:0, instance:videoGameAPI.TestScript.TC3_DELETE_Request@7ac2e39b]" started-at="2022-11-26T06:10:54Z" name="post_request" finished-at="2022-11-26T06:10:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_request -->
+        <test-method signature="delete_existinVideoGame()[pri:4, instance:videoGameAPI.TestScript.TC3_DELETE_Request@7ac2e39b]" started-at="2022-11-26T06:10:54Z" name="delete_existinVideoGame" finished-at="2022-11-26T06:10:54Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_existinVideoGame -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:videoGameAPI.TestScript.TC3_DELETE_Request@7ac2e39b]" started-at="2022-11-26T06:10:54Z" name="tearDown" finished-at="2022-11-26T06:10:57Z" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- videoGameAPI.TestScript.TC3_DELETE_Request -->
+      <class name="videoGameAPI.TestScript.TC2_POST_Request">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:videoGameAPI.TestScript.TC2_POST_Request@5c10f1c3]" started-at="2022-11-26T06:10:44Z" name="setupTest" finished-at="2022-11-26T06:10:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="post_aNewVideoGame()[pri:1, instance:videoGameAPI.TestScript.TC2_POST_Request@5c10f1c3]" started-at="2022-11-26T06:10:44Z" name="post_aNewVideoGame" finished-at="2022-11-26T06:10:44Z" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_aNewVideoGame -->
+        <test-method is-config="true" signature="post_request()[pri:0, instance:videoGameAPI.TestScript.TC2_POST_Request@5c10f1c3]" started-at="2022-11-26T06:10:44Z" name="post_request" finished-at="2022-11-26T06:10:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_request -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:videoGameAPI.TestScript.TC2_POST_Request@5c10f1c3]" started-at="2022-11-26T06:10:44Z" name="tearDown" finished-at="2022-11-26T06:10:47Z" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- videoGameAPI.TestScript.TC2_POST_Request -->
+      <class name="videoGameAPI.TestScript.TC4_GET_Request">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:videoGameAPI.TestScript.TC4_GET_Request@78365cfa]" started-at="2022-11-26T06:10:47Z" name="setupTest" finished-at="2022-11-26T06:10:47Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="post_request()[pri:0, instance:videoGameAPI.TestScript.TC4_GET_Request@78365cfa]" started-at="2022-11-26T06:10:47Z" name="post_request" finished-at="2022-11-26T06:10:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_request -->
+        <test-method signature="get_singlGameByID()[pri:2, instance:videoGameAPI.TestScript.TC4_GET_Request@78365cfa]" started-at="2022-11-26T06:10:47Z" name="get_singlGameByID" finished-at="2022-11-26T06:10:47Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_singlGameByID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:videoGameAPI.TestScript.TC4_GET_Request@78365cfa]" started-at="2022-11-26T06:10:47Z" name="tearDown" finished-at="2022-11-26T06:10:51Z" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- videoGameAPI.TestScript.TC4_GET_Request -->
+      <class name="videoGameAPI.TestScript.TC_5_PUT_Request">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:videoGameAPI.TestScript.TC_5_PUT_Request@64a8c844]" started-at="2022-11-26T06:10:51Z" name="setupTest" finished-at="2022-11-26T06:10:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="post_request()[pri:0, instance:videoGameAPI.TestScript.TC_5_PUT_Request@64a8c844]" started-at="2022-11-26T06:10:51Z" name="post_request" finished-at="2022-11-26T06:10:51Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_request -->
+        <test-method signature="update_existingVideoGameByID()[pri:3, instance:videoGameAPI.TestScript.TC_5_PUT_Request@64a8c844]" started-at="2022-11-26T06:10:51Z" name="update_existingVideoGameByID" finished-at="2022-11-26T06:10:51Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_existingVideoGameByID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:videoGameAPI.TestScript.TC_5_PUT_Request@64a8c844]" started-at="2022-11-26T06:10:51Z" name="tearDown" finished-at="2022-11-26T06:10:54Z" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- videoGameAPI.TestScript.TC_5_PUT_Request -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
